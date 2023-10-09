@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>след лаба</title>
+</head>
+
+<body>
+    <main class="total">
+        <div>25 varik
+            <p>
+                <b>Добавление пациента</b>
+            </p>
+        </div>
+        <form target="_blank" name="patient" action="#" autocomplete="on" enctype="multipart/form-data" method="post">
+            <fieldset>
+                <legend>Персональные данные</legend>
+                <p><label for="name">Имя*  </label><input type="text" placeholder="Иван" required></p>
+                <label for="surname">Фамилия*   </label><input type="text" placeholder="Иванов" required>
+                <p><label for="email">Email   </label><input type="email" placeholder="example@gmail.com"></p>
+                <p><label for="date">Дата   </label><input type="date"></p>
+                <p><label for="age">Возраст   </label><input placeholder="18" type="number" min="1" max="100" step="1" name="" id=""></p>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>фигня всякая</legend>
+                <label for="">Что Вам болит</label>
+                <select name="selection " id=" ">
+                    <option value="head ">голова</option>
+                    <optgroup label="руки ">
+                        <option value="leftarm ">левая рука</option>
+                        <option value="rightarm ">правая рука</option>
+                    <optgroup label="ноги ">
+                        <option value="leftleg ">левая нога</option>
+                        <option value="rightleg ">правая нога</option>
+                    </optgroup>
+                
+
+                </select>
+                <br><br><label for="">заметочки</label><br><textarea name=" " id=" " cols="10 " rows="3 " placeholder="у тебя нет власти здесь" readonly></textarea>
+                <br><input type="checkbox" name="" id=""><label for="">Имеется ли собака?</label>
+                <br><input type="checkbox" name="" id=""><label for="">Имеется ли кошка?</label>
+                <br><input type="checkbox" name="" id="" disabled><label for="">Имеется ли хомяк?</label>
+                <br><br><label for="">Выбрать пол:</label><br><input type="radio" name="aaa" id=""><label for="">Насильник</label>
+                <br><input type="radio" name="aaa" id="" checked><label for="">Посудомойка</label>
+                <br><input type="radio" name="aaa" id=""><label for="">Трансформаторная будка</label>
+                <br><br><label for="">Введите номер</label><br><input type="range" min="375000000000" max="375999999999" name="" id="numbbb" oninput="this.nextElementSibling.value = this.value">
+                <output>375XXXXXXXXX</output> <br><br><label for="">Ввести пароль</label><br><input type="password" name="" id="" maxlength="25" minlength="10" size="40" required>
+            </fieldset>
+
+            <br><button>Отправить заявку</button> <input type="reset" value="устроить амнезию">
+        </form>
+        <br>*Валидацияв рамкахданного сайта представляет собой необходимость заполнения некоторых из полей, примем графа с паролем требует еще и определенной длины.
+    </main>
+</body>
+
+</html>
+
+</html>
