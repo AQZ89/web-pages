@@ -1,0 +1,130 @@
+@font-face {
+    font-family: "Didot";
+    src: url("./src/Didot-Regular.ttf") format("truetype");
+}
+
+div {
+    color: #F9F9F9;
+    font-family: 'Source Code Pro';
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+h1 {
+    font-family: Source Code Pro;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0 0 0 0;
+}
+
+h2 {
+    font-family: Source Code Pro;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0 0 0 0;
+}
+
+p {
+    margin: 0 0 0 0;
+}
+
+a {
+    color: #F9F9F9;
+    text-decoration: none;
+}
+
+.label {
+    font-family: 'Didot';
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 550;
+    line-height: normal;
+    margin-bottom: 15px;
+}
+
+.name {
+    font-family: 'Didot';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 550;
+    line-height: normal;
+}
+
+.describtion {
+    margin-bottom: 15px;
+}
+
+.container {
+    background-color: #222222;
+    padding: 47px 49px 50px 54px;
+    height: auto;
+    width: 595px;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    justify-content: space-between;
+}
+
+.info>div {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+}
+
+.rows:first-child {
+    margin-bottom: 34px
+}
+
+.rows>div {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    flex-direction: column;
+    align-content: center;
+}
+
+.rows>div:first-child {
+    display: flex;
+    flex: 2;
+    justify-content: space-between;
+    flex-direction: column;
+    align-content: center;
+    margin-right: 39px;
+}
+
+.articles {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.articles>div:last-child {
+    margin-bottom: 0px;
+}
+
+.article {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+
+.subrow {
+    display: flex;
+}
