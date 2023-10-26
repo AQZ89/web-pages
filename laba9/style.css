@@ -1,4 +1,40 @@
-.total {
+* {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    align-content: center;
+}
+
+.buttons {
+    margin-top: 30px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    border: 1px black solid;
+}
+
+.cl1 {
+    color: blue;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+}
+
+.cl2 {
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+}
+
+.cl3 {
+    color: rgb(1, 139, 1);
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.cl4 {
+    color: rgb(0, 0, 0);
+    border: red 2px dotted;
+}
+
+.cl5 {
+    color: blue;
+    font-weight: bold;
+    font-style: italic;
 }
