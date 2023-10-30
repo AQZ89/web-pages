@@ -1,3 +1,5 @@
+let randValues = [];
+
 //1
 const but1 = document.getElementById("but1");
 but1.onclick = function() {
@@ -64,6 +66,7 @@ but5.onclick = function() {
     let b = document.getElementById("in5_2").value;
     let c = document.getElementById("in5_3").value;
     disp5.innerHTML += calc(a, b, c);
+    disp6.innerHTML += ``;
 }
 
 //6
@@ -78,9 +81,11 @@ let add = function(n) {
 }
 const addN = add();
 
-const but6 = document.getElementById("but6");
+const disp6 = document.getElementById("six");
+let but6 = document.getElementById("but6");
 but6.onclick = function() {
-    const disp6 = document.getElementById("six");
+    console.log("поулчилось")
+    disp6.innerHTML += `тест`;
     let n = document.getElementById("in6").value;
     disp6.innerHTML += `Получилось ${addN(+n)}`;
 }
