@@ -139,6 +139,7 @@ butshow.onclick = function() {
     }
 }
 
+
 // все способы отчищают массив
 copymassiv4.length = 0;
 copymassiv4.splice(0, copymassiv4.length);

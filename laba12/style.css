@@ -3,14 +3,47 @@
     font-size: 14px;
 }
 
+input {
+    margin-bottom: 8px;
+    width: 30px;
+}
+
+button {
+    margin-bottom: 5px;
+}
+
 .container {
     margin: 10px;
     padding: 5px;
     border: black 1px solid;
     width: 400px;
-    height: 40px;
+    height: 50px;
 }
 
 #two {
     min-height: 50px;
+}
+
+#two>* {
+    margin-bottom: 8px;
+}
+
+#two>input {
+    width: 20px;
+}
+
+#three {
+    min-height: 100px;
+}
+
+#four {
+    min-height: 80px;
+}
+
+#five {
+    min-height: 40px;
+}
+
+#six {
+    min-height: 80px;
 }
