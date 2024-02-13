@@ -1,0 +1,29 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+}
+
+input {
+    margin-bottom: 8px;
+    width: 30px;
+}
+
+button {
+    margin-bottom: 5px;
+}
+
+.container {
+    margin: 10px;
+    padding: 5px;
+    border: black 1px solid;
+    width: 500px;
+    height: 50px;
+}
+
+#two {
+    min-height: 25px;
+}
+
+#three {
+    min-height: 30px;
+}
