@@ -1,1 +1,8 @@
-fr
+ready
+13-19
+
+passed
+13
+
+conditions
+upto-24

@@ -1,0 +1,67 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+}
+
+input {
+    margin-bottom: 8px;
+    width: 30px;
+}
+
+button {
+    margin-bottom: 5px;
+}
+
+.container {
+    margin: 10px;
+    padding: 5px;
+    border: black 1px solid;
+    width: 500px;
+}
+
+#one {
+    min-height: 100px;
+}
+
+#one>input {
+    min-width: 70px;
+}
+
+#two {
+    min-height: 300px;
+}
+
+#three {
+    min-height: 30px;
+}
+
+label {
+    display: inline-block;
+    padding: 5px;
+    cursor: pointer;
+}
+
+input[type="radio"]:checked+label {
+    color: red;
+}
+
+input[type="radio"]:not(:checked)+label {
+    color: blue;
+}
+
+#q5 {
+    min-width: 70px;
+}
+
+#nextlaba {
+    text-decoration: none;
+    color: #414141;
+    animation-duration: 1s;
+}
+
+#nextlaba:hover {
+    text-decoration: none;
+    color: #c50707;
+    text-shadow: 0px 0px 0px #fff, 0px 0px 9px #ed3d3d;
+    animation-duration: 1s;
+}

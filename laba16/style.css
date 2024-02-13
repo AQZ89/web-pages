@@ -1,0 +1,144 @@
+@font-face {
+    font-family: "Didot";
+    src: url("./src/Didot-Regular.ttf") format("truetype");
+}
+
+a {
+    text-decoration: none;
+    color: rgb(142, 251, 238);
+}
+
+* {
+    color: white;
+    font-family: 'Source Code Pro';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+body {
+    display: flex;
+}
+
+input {
+    margin-bottom: 8px;
+    width: 30px;
+}
+
+button {
+    margin-bottom: 5;
+    color: black;
+}
+
+.container {
+    background-color: #333;
+    margin: 10px;
+    padding: 5px;
+    border: black 1px solid;
+    width: 95%;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container>* {
+    border: black 1px solid;
+}
+
+header {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 300px
+}
+
+.content {
+    padding: 10px;
+    flex: 10;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.content>* {
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.content>*>div {
+    display: block;
+    height: 30%;
+    width: 30%;
+    align-content: center;
+}
+
+footer {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+footer>* {
+    color: rgb(231, 231, 231);
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+#header {
+    display: flex;
+    list-style-type: none;
+    margin: 6px;
+    padding: 10px;
+    background-color: #333;
+    width: 70%;
+    justify-content: space-between;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.progress-container {
+    width: 600px;
+    height: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    overflow: hidden;
+    padding: 4px;
+    margin: 10px
+}
+
+.progress-bar {
+    width: 0;
+    height: 100%;
+    background-color: #4CAF50;
+    transition: width 0.5s ease-in-out;
+}
+
+#nextlaba {
+    text-decoration: none;
+    color: #414141;
+    animation-duration: 1s;
+}
+
+#nextlaba:hover {
+    text-decoration: none;
+    color: #c50707;
+    text-shadow: 0px 0px 0px #fff, 0px 0px 9px #ed3d3d;
+    animation-duration: 1s;
+}
