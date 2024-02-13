@@ -1,0 +1,85 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+}
+
+input {
+    margin-bottom: 8px;
+    width: 30px;
+}
+
+button {
+    margin-bottom: 5px;
+}
+
+.container {
+    margin: 10px;
+    padding: 5px;
+    border: black 1px solid;
+    width: 400px;
+    height: 50px;
+}
+
+#two {
+    min-height: 75px;
+}
+
+#two>* {
+    margin-bottom: 8px;
+}
+
+#two>input {
+    width: 100px;
+}
+
+#three {
+    min-height: 30px;
+}
+
+#four1 {
+    min-height: 80px;
+}
+
+#four2 {
+    min-height: 80px;
+}
+
+#in421 {
+    width: 120px;
+}
+
+#five {
+    min-height: 40px;
+}
+
+#six {
+    min-height: 80px;
+}
+
+#in6 {
+    width: 100px;
+}
+
+#seven {
+    min-height: 80px;
+}
+
+#in7 {
+    width: 100px;
+}
+
+#eight {
+    min-height: 80px;
+}
+
+#in8 {
+    width: 100px;
+}
+
+#gif1 {
+    width: 300px;
+    position: absolute;
+    right: 30px;
+    top: 25px;
+    z-index: 9999;
+}
